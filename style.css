@@ -1,0 +1,211 @@
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+/* Navbar */
+.navbar {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+/* Hero */
+.hero {
+    text-align: center;
+    padding: 30px;
+}
+
+/* Layout */
+.container {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Sections */
+.workers, .cost, .plans {
+    flex: 1;
+}
+
+/* Workers vertical */
+.workers-list {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cards */
+.card {
+    background: #f5f5f5;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+/* Buttons */
+button {
+    padding: 8px 12px;
+    background: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Plans */
+.plans-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.plans-container .card {
+    width: 120px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+
+.plans-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+/* Navbar upgrade */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #222;
+    color: white;
+    padding: 15px 30px;
+}
+
+.nav-btn {
+    color: white;
+    text-decoration: none;
+    background: #2196F3;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
+
+/* Hero section */
+.hero {
+    height: 50vh;
+    background: linear-gradient(to right, #00c3ff, #0072ff);
+
+    color: white;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    margin: 15px 0;
+    font-size: 18px;
+}
+
+/* Main button */
+.main-btn {
+    padding: 12px 20px;
+    background: white;
+    color: #0D47A1;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main-btn:hover {
+    background: #ddd;
+}
+
+/* Features section */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+/* Cards upgrade */
+.card {
+    background: #f9f9f9;
+    padding: 20px;
+    width: 220px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #222;
+    color: white;
+}
+.hero h1 {
+    margin-bottom: 10px;
+}
+
+.hero p {
+    margin-top: 0;
+    font-size: 18px;
+}
+
+
+
+.card {
+    display: block;
+    width: 220px;          /* 🔥 FIX width */
+    text-decoration: none;
+    color: inherit;
+}
+.features {
+    align-items: flex-start;   /* 🔥 prevents vertical stretch */
+}
+
+
+
+/* Cost page box */
+.cost-box {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* Inputs */
+.cost-box input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 220px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+/* Button */
+.cost-box button {
+    margin-top: 10px;
+}
+
+
+.booking-box {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.booking-box input {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    width: 220px;
+}
+
+.cost-box h3 {
+    margin-top: 10px;
+}

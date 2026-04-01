@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cost Estimation - BuildSmart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <h2>BuildSmart</h2>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero" style="height: 30vh;">
+    <h1>💰 Cost Estimation</h1>
+    <p>Calculate your construction cost easily</p>
+</section>
+
+<!-- Calculator Section -->
+<div class="cost-box">
+
+    <input type="number" id="area" placeholder="Area (sq ft)">
+    
+    <input type="number" id="rate" placeholder="Cost per sq ft">
+
+    <input type="number" id="material" placeholder="Material % (e.g. 60)">
+
+    <input type="number" id="labour" placeholder="Labour % (e.g. 40)">
+
+    <button onclick="calculateCost()">Calculate</button>
+
+    <h3 id="materialCost"></h3>
+    <h3 id="labourCost"></h3>
+    <h2 id="totalCost"></h2>
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
